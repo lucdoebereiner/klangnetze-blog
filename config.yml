@@ -1,0 +1,42 @@
+baseURL: 'http://klangnetze.mur.at/'
+languageCode: en-us
+title: Klangnetze
+theme: PaperMod
+paginate: 5
+params:
+  defaultTheme: light
+  disableThemeToggle: 'true'
+  hideFooter: 'true'
+  defaultContentLanguage: en
+  homeInfoParams:
+        Content: >
+            ![Logo](/images/logo.png)
+languages:
+  de:
+    title: Klangnetze
+    languageName: Deutsch
+    weight: 1
+    homeInfoParams:
+        Content: >
+            ![Logo](/images/logo.png)
+
+    menu:
+      main:
+        - name: Archiv
+          url: /archiv
+          weight: 1
+        - name: Projekt
+          url: /projekt
+          weight: 0
+  en:
+    title: Klangnetze
+    languageName: English
+    weight: 0
+    menu:
+      main:
+        - name: Archives
+          url: /archives
+          weight: 1
+        - name: Project
+          url: /project
+          weight: 0
