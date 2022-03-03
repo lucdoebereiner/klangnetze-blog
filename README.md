@@ -1,5 +1,6 @@
 # Klangnetze Webpage using Hugo
 
+- Get submodules: `git submodule update --init --recursive`
 - Install Hugo (`apt-get install hugo`)
 - See https://gohugo.io/getting-started/usage/ for basic usage
 - To run the development server in watch mode run `hugo server -D` and open http://localhost:1313/ in the browser
